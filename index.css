@@ -1,0 +1,70 @@
+
+h2{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:300%;
+}
+.Ext{
+    color: rgb(12, 12, 12);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 160%;
+    border:1px solid red;
+    border-radius: 10px;
+    margin:100px;
+}
+.d{
+    border-radius: 20px;
+    background: gray;
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+    transition-property:initial;
+    transition-duration: 2s;
+
+}
+.d:hover{
+    width: 400px;
+}
+
+
+.text{
+    text-align: center;
+    
+    background-color: beige;
+    color: rgb(241, 237, 234);
+    background-image: url(https://designwanted.com/wp-content/uploads/2023/09/Frekvens-Hacks-credits-teenage-engineering.jpg);
+    background-blend-mode:faded;
+
+}
+*{
+    text-align: center;
+    
+}
+.shadow{
+    text-shadow: 2px 2px red;
+}
+a{
+
+    color:red
+    
+    
+}
+.link
+{
+    border-radius: 20px;
+    border: 1px solid blue;
+    
+}
+.link:hover{
+    background-color:rgb(223, 196, 255) ;
+}
+
+.main{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  
+}
+.li{
+    display:inline;
+}
