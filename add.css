@@ -1,0 +1,60 @@
+
+.ext{
+    color: blue;
+    font-size: 22px;
+}
+.margin{
+    padding: 100px;
+    background-color: rgb(108, 114, 112);
+    /* width: 50%;
+    height: 50%; */
+    justify-content: center;
+
+  }
+  .content{
+    
+        background-color: rgb(102, 201, 229);
+        margin: 100px;
+        color: black;
+  }
+  .relative{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgb(8, 8, 23);
+    background-color: rgb(159, 119, 68);
+  }
+  .absolute{
+  position: absolute;
+  /* top: 80px; */
+  width: 200px;
+  height: 200px;
+  right:0;
+  border: 3px solid red;
+  background-color:rgba(18, 9, 122, 0.135);
+  }
+  .hsl
+  {
+    color:hsl(rgba(224, 135, 40, 0.388), saturation, lightness); 
+    background-color: hsl(210, 33%, 76%); 
+
+  }
+  .border{
+
+    border: 2px solid rgb(15, 3, 3);
+  }
+  .outline{
+    outline: 2px dashed blue;
+
+  }
+  .hidden{
+    display: none;
+  }
+  .index{
+    margin-top: 200px;
+  }
+  
+  img{
+    position: absolute;
+    z-index:-1;
+}
